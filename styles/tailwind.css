@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply font-mono text-xs tracking-wide lg:text-sm;
+}
+
+@font-face {
+  src: url(/fonts/Buckin-Rg.otf);
+  font-weight: 400;
+  font-family: "buckin";
+}
+
+@font-face {
+  src: url(/fonts/Buckin-Bd.otf);
+  font-weight: 700;
+  font-family: "buckin";
+}
